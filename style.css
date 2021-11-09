@@ -1,1 +1,102 @@
 
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background: #181B27;
+}
+
+.section{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.section img{
+    height: 300px;
+    width: 300px;
+    margin-top: 4%;
+    transition: all 0.5s ease-in-out;
+    box-shadow:  -7px -7px 7px #00348352,
+    7px 7px 7px #00348352;
+}
+.section img:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+.credits{
+    color: rgb(143, 139, 123);
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: 30px;
+    flex-direction: column;
+    transform: translateX(-60px);
+    cursor: pointer;
+}
+.credits p{
+    font-size: 30px;
+    color: green;
+    transform: translate(230px, -65px);
+}
+
+.progress{
+    transform: translateY(-60px);
+    height: 10px;
+    width: 350px;
+    box-shadow: inset 5px 5px 10px #0a0b10,
+                inset -5px -5px 10px #262b3e,
+                inset 100px 0px 0px #ffffff;;
+    word-spacing: 18pc;
+}
+.progress p{
+    margin-top: 15px;
+    color: grey;
+}
+p[data-descr]:hover::after{
+    content: attr(data-descr);
+    position: absolute;
+    left: 0;
+    top: 24px;
+    width: auto;
+    border: 1px #aaaaaa solid;
+    border-radius: 10px;
+    background-color: #262b3e;
+    padding: 6px;
+    color: grey;
+    font-size: 14px;
+    z-index: 1;
+}
+
+
+.option img{
+    height: 50px;
+    width: 50px;
+    box-shadow: inset 5px 5px 10px #0a0b10,
+            inset -5px -5px 10px #262b3e;
+    margin: 0 25px; 
+}
+
+.option img:active{
+    background: linear-gradient(145deg, #1a1d2a, #161823);
+    box-shadow:  6px 6px 11px #0a0b10,
+                 -6px -6px 11px #262b3e;
+    transform: scale(1.16);
+}
+.lyrics{
+    border-radius: 40px 40px 0px 0px;
+    margin-top: 30px;
+    background-color: #262b3e;
+    padding: 15px 25px;
+    color: grey;
+    box-shadow: inset 5px 5px 10px #0a0b10,
+    inset -5px -5px 10px #0a0b10  ;
+}
+.over{
+    color: aliceblue;
+    text-shadow: 0px 0px 11px rgb(51, 51, 51);
+}
+h1{
+    color: #b6b6b6;
+}
