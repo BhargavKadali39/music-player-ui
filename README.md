@@ -2,7 +2,7 @@
 Music player ui using plane css
 
 
-Get hands-on train on my [code pen account](https://codepen.io/bhargavkadali39/pen/bGrKaYM)
+Get hands-on trail on my [code pen account](https://codepen.io/bhargavkadali39/pen/bGrKaYM)
 
 OR
 
